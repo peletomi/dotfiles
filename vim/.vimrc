@@ -33,18 +33,20 @@ NeoBundleCheck
 "
 " Plugins
 "
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'bling/vim-airline'
-NeoBundle 'nanotech/jellybeans.vim'
-NeoBundle 'Shougo/neocomplete'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/neosnippet'
-NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'majutsushi/tagbar'
-NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'tpope/vim-fireplace'
-NeoBundle 'tpope/vim-markdown'
+call neobundle#append()
+    NeoBundle 'scrooloose/nerdtree'
+    NeoBundle 'bling/vim-airline'
+    NeoBundle 'nanotech/jellybeans.vim'
+    NeoBundle 'Shougo/neocomplete'
+    NeoBundle 'Shougo/unite.vim'
+    NeoBundle 'Shougo/neosnippet'
+    NeoBundle 'Shougo/neosnippet-snippets'
+    NeoBundle 'scrooloose/syntastic'
+    NeoBundle 'majutsushi/tagbar'
+    NeoBundle 'pangloss/vim-javascript'
+    NeoBundle 'tpope/vim-fireplace'
+    NeoBundle 'tpope/vim-markdown'
+call neobundle#end()
 
 "
 " Config

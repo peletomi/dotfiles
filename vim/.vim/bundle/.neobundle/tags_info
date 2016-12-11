@@ -1,0 +1,13 @@
+jellybeans.vim
+neobundle.vim
+neocomplete
+neosnippet
+neosnippet-snippets
+nerdtree
+syntastic
+tagbar
+unite.vim
+vim-airline
+vim-fireplace
+vim-javascript
+vim-markdown
