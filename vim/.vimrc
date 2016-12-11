@@ -46,6 +46,7 @@ call neobundle#append()
     NeoBundle 'pangloss/vim-javascript'
     NeoBundle 'tpope/vim-fireplace'
     NeoBundle 'tpope/vim-markdown'
+    NeoBundle 'godlygeek/tabular'
 call neobundle#end()
 
 "
@@ -110,6 +111,9 @@ map Q gq
 nnoremap <silent> <F2> :NERDTreeToggle<CR>
 nnoremap <silent> <F3> :TagbarToggle<CR>
 nnoremap <silent> <leader><space> :noh<cr>
+
+map <leader>x :silent 1,$!xmllint --format --recover - 2>/dev/null<CR>
+map <leader>j :silent 1,$!python -m json.tool - 2>/dev/null<CR>
 
 "
 " Plugin Config
